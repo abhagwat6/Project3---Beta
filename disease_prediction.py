@@ -13,7 +13,7 @@ st.set_page_config(page_title="🩺 Disease Prediction Based on Symptoms", layou
 model = load_model('mlp_model.h5')
 
 # Load and prepare the dataset
-df = pd.read_csv('dataset_kaggle.csv')
+df = pd.read_csv('disease_symptoms.csv')
 
 # Full list of symptoms
 symptoms_list = ['Anemia', 'Anxiety', 'Aura', 'Belching', 'Bladder issues', 'Bleeding mole', 
